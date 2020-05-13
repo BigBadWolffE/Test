@@ -1,0 +1,103 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="chipStyle">@style/Widget.MaterialComponents.Chip.Choice</item>
+        <item name="drawerArrowStyle">@style/DrawerArrowStyle</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppThemeVer2" parent="Theme.MaterialComponents.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="chipStyle">@style/Widget.MaterialComponents.Chip.Choice</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="DrawerArrowStyle" parent="Widget.AppCompat.DrawerArrowToggle">
+        <item name="spinBars">true</item>
+        <item name="color">@color/colorThemeGreyDark</item>
+    </style>
+
+    <!-- Text Style Bold-->
+    <style name="TextButtonWhiteBold">
+        <item name="android:textSize">@dimen/text_20_size</item>
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="TextHeaderGreenBold">
+        <item name="android:textSize">40sp</item>
+        <item name="android:textColor">@color/colorThemeGreen</item>
+        <item name="android:layout_marginTop">8dp</item>
+        <item name="android:layout_marginBottom">8dp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!-- Text Style Default-->
+    <style name="TextDefaultBlack">
+        <item name="android:textSize">@dimen/text_default_size</item>
+        <item name="android:textColor">@color/TextColorDefault</item>
+    </style>
+    <style name="TextDefaultWhite">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+    <style name="TextDefaultGrey">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/colorThemeGrey</item>
+    </style>
+    <style name="TextDefaultGreenDark">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/colorThemeGreenDark</item>
+    </style>
+
+
+    <!-- Dialog Show -->
+    <!--<style name="DialogAnimateSlide">-->
+        <!--<item name="android:windowEnterAnimation">@anim/animate_slide_up</item>-->
+        <!--<item name="android:windowExitAnimation">@anim/animate_slide_down</item>-->
+    <!--</style>-->
+
+    <!--<style name="DialogAnimateSlideDown">-->
+        <!--<item name="android:windowEnterAnimation">@anim/animate_slide_down</item>-->
+        <!--<item name="android:windowExitAnimation">@anim/animate_slide_up</item>-->
+    <!--</style>-->
+
+    <!--<style name="DialogAnime3">-->
+        <!--<item name="android:windowEnterAnimation">@anim/anim_slide_in_down</item>-->
+        <!--<item name="android:windowExitAnimation">@anim/anim_slide_out_up</item>-->
+    <!--</style>-->
+
+    <!--<style name="DialogAnimateFade">-->
+        <!--<item name="android:windowEnterAnimation">@anim/anim_fadein</item>-->
+        <!--<item name="android:windowExitAnimation">@anim/anim_fadeout</item>-->
+    <!--</style>-->
+
+    <style name="ChipTextApperance" parent="TextAppearance.MaterialComponents.Chip">
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="TextAppearance.App.TextInputLayout" parent="@android:style/TextAppearance">
+        <item name="android:textColor">@color/color_subscribe_yes</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="EditTextTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!--<item name="colorControlNormal">@color/colorThemeGreen</item>-->
+        <item name="colorControlActivated">@color/color_subscribe_yes</item>
+
+        <!--<item name="colorControlHighlight">@color/colorThemeGreenDark</item>-->
+    </style>
+
+
+</resources>

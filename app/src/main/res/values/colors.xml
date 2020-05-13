@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#398689</color>
+    <color name="colorPrimaryDark">#707070</color>
+    <color name="colorAccent">#F7931D</color>
+
+    <color name="colorThemeGreenDark">#0F3032</color>
+    <color name="colorThemeGreen">#398689</color>
+    <color name="colorThemeGreen02">#317257</color>
+    <color name="colorThemeGreenDark02">#0E3033</color>
+    <color name="colorThemeOrange">#F7931D</color>
+    <color name="colorThemeCream">#F9F8F0</color>
+    <color name="colorThemeWhite">#F9F9F9</color>
+    <color name="colorThemeGrey">#979797</color>
+    <color name="colorThemeGreyLight">#E8E8E8</color>
+    <color name="colorThemeGreyDark">#707070</color>
+
+    <color name="colorButtonDisabled">#9b9b9b</color>
+    <color name="colorBtnDeActived">#FFCC8E</color>
+
+    <color name="TextColorDefault">#52575C</color>
+    <color name="TextColorBlack">#25282B</color>
+    <color name="TextColorLight">#A0A4A8</color>
+    <color name="EdittextLogin">#FAFAFA</color>
+    <color name="CardView">#E5E5E5</color>
+
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorWhiteLight">#32FFFFFF</color>
+    <color name="colorBlack">#000000</color>
+
+    <color name="overlayBackground">#32000000</color>
+    <color name="overlayActionBar">#0E0D0E</color>
+
+    <color name="status_tersedia">#B8E986</color>
+    <color name="status_persediaan_isi">#FDCB6E</color>
+    <color name="status_kosong">#FF7675</color>
+
+    <color name="color_subscribe_yes">#4A934A</color>
+    <color name="color_theme_green">#4A934A</color>
+    <color name="color_theme_yellow">#F7931D</color>
+    <color name="color_theme_red">#CF212A</color>DEFF3D3D
+
+    <color name="colorF5F5F5">#F5F5F5</color>
+    <color name="colorFAFAFA">#FAFAFA</color>
+    <color name="color429FF4">#429FF4</color>
+    <color name="colorDE000000">#DE000000</color>
+    <color name="color61000000">#61000000</color>
+    <color name="color99000000">#99000000</color>
+    <color name="color61F5F5F5">#61F5F5F5</color>
+    <color name="color_DEFF3D3D">#DEFF3D3D</color>
+</resources>
